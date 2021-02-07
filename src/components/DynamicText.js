@@ -46,8 +46,8 @@ const DynamicText = () => {
   return (
     <span className="dynamic-text">
       <span id="text-target"></span>
-      &nbsp;
-      <span className="simply">rapidement</span>
+
+      <span className="simply"> &nbsp; &nbsp;rapidement</span>
     </span>
   );
 };
