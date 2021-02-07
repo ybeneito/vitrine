@@ -1,5 +1,5 @@
 import React from "react";
-import Mouse from "../components/Mouse";
+
 import Navigation from "../components/Navigation";
 import Logo from "../components/Logo";
 import { CopyToClipboard } from "react-copy-to-clipboard";
@@ -27,7 +27,6 @@ const Contact = () => {
 
   return (
     <main>
-      <Mouse />
       <motion.div
         exit="out"
         animate="in"

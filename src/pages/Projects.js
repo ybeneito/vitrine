@@ -4,12 +4,10 @@ import BtnsBot from "../components/BtnsBot";
 import Logo from "../components/Logo";
 
 import Project from "../components/Project";
-import Mouse from "../components/Mouse";
 
 export const Project1 = () => {
   return (
     <main>
-      <Mouse />
       <div className="project">
         <Navigation />
         <Logo />
@@ -23,7 +21,6 @@ export const Project1 = () => {
 export const Project2 = () => {
   return (
     <main>
-      <Mouse />
       <div className="project">
         <Navigation />
         <Logo />
@@ -37,7 +34,6 @@ export const Project2 = () => {
 export const Project3 = () => {
   return (
     <main>
-      <Mouse />
       <div className="project">
         <Navigation />
         <Logo /> <Project projectNumber={2} />
@@ -50,7 +46,6 @@ export const Project3 = () => {
 export const Project4 = () => {
   return (
     <main>
-      <Mouse />
       <div className="project">
         <Navigation />
         <Logo />

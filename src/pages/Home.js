@@ -3,7 +3,7 @@ import Navigation from "../components/Navigation";
 import Socials from "../components/Socials";
 import DynamicText from "../components/DynamicText";
 import BtnsBot from "../components/BtnsBot";
-import Mouse from "../components/Mouse";
+
 import { motion } from "framer-motion";
 
 const Home = () => {
@@ -26,7 +26,6 @@ const Home = () => {
 
   return (
     <main>
-      <Mouse />
       <motion.div
         className="home"
         initial="initial"

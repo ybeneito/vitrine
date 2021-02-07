@@ -27,15 +27,14 @@ const Project = (props) => {
       x: -800,
     },
   };
-  let plusMinus = Math.random() > 0.4 ? 1 : -1;
-  let imgX = Math.random() * 350 * plusMinus;
-  let imgY = Math.random() * 120 * plusMinus;
+
+  let imgX = Math.random() * 350;
 
   const imgAnim = {
     initial: {
       opacity: 0,
       x: imgX,
-      y: imgY,
+      y: 1,
     },
     visible: {
       opacity: 1,
